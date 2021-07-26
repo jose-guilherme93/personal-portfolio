@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OriginSix</title>
+    
+    <link rel="stylesheet" href="fonts.css">
+    
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="fonts.css">
+    <!-- SWIPER-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -101,56 +105,62 @@
         </section>
 
 <!----  TESTIMONIALS   -->
-        <section class="testimonials">
-            <div class="container grid">
+        <section class="section" id="testimonials">
+            <div class="container">
                 <header>
                     <h2 class="title">Depoimentos de quem já usou</h2>
                 </header>
-                    <div class="testimonials" id="testimonials">
-                        <div class="testimonial">
-                          <blockquote>
-                            <p>
-                                <span>&OpenCurlyDoubleQuote;</span>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sunt excepturi deleniti voluptate dolorem suscipit vero nobis, iure animi saepe atque soluta eligendi quae modi repellendus sequi, dolor ipsam id.
-                            </p>
-                            <cite>
-                                <img src="https://randomuser.me/api/portraits/women/10.jpg" alt="">
-                                Wanessa top
-                            </cite>
-                          </blockquote> 
+                    <div class="testimonials swiper-container">
+                        <div class="swiper-wrapper">
+                            
+                            <div class="testimonial swiper-slide">
+                            <blockquote>
+                                <p>
+                                    <span>&OpenCurlyDoubleQuote;</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sunt excepturi deleniti voluptate dolorem suscipit vero nobis, iure animi saepe atque soluta eligendi quae modi repellendus sequi, dolor ipsam id.
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/10.jpg" alt="">
+                                    Wanessa top
+                                </cite>
+                            </blockquote> 
+                            </div>
+
+                            <div class="testimonial swiper-slide">
+                                <blockquote>
+                                <p>
+                                    <span>&OpenCurlyDoubleQuote;</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sunt excepturi deleniti voluptate dolorem suscipit vero nobis, iure animi saepe atque soluta eligendi quae modi repellendus sequi, dolor ipsam id.
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="">
+                                    Wanessa top
+                                </cite>
+                                </blockquote> 
+                            </div>
+
+                            <div class="testimonial swiper-slide">
+                                <blockquote>
+                                <p>
+                                    <span>&OpenCurlyDoubleQuote;</span>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sunt excepturi deleniti voluptate dolorem suscipit vero nobis, iure animi saepe atque soluta eligendi quae modi repellendus sequi, dolor ipsam id.
+                                </p>
+                                <cite>
+                                    <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
+                                    Wanessa top
+                                </cite>
+                                </blockquote> 
+                            </div>
                         </div>
-
-                        <div class="testimonial">
-                            <blockquote>
-                              <p>
-                                  <span>&OpenCurlyDoubleQuote;</span>
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sunt excepturi deleniti voluptate dolorem suscipit vero nobis, iure animi saepe atque soluta eligendi quae modi repellendus sequi, dolor ipsam id.
-                              </p>
-                              <cite>
-                                  <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="">
-                                  Wanessa top
-                              </cite>
-                            </blockquote> 
-                          </div>
-
-                          <div class="testimonial">
-                            <blockquote>
-                              <p>
-                                  <span>&OpenCurlyDoubleQuote;</span>
-                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sunt excepturi deleniti voluptate dolorem suscipit vero nobis, iure animi saepe atque soluta eligendi quae modi repellendus sequi, dolor ipsam id.
-                              </p>
-                              <cite>
-                                  <img src="https://randomuser.me/api/portraits/women/12.jpg" alt="">
-                                  Wanessa top
-                              </cite>
-                            </blockquote> 
-                          </div>
-
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
                     </div>
             </div>
         </section>
 
     </main>
+    <!--SWIPERJS-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="main.js"></script>
 </body>
